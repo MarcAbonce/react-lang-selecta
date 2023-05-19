@@ -1,15 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import LangSelecta from './LangSelecta';
 import reportWebVitals from './reportWebVitals';
+
+const langs = [
+  { code: 'ar', flag: '🇹🇳', name: 'اَلْعَرَبِيَّةُ' },
+  { code: 'es', flag: '🇵🇪', name: 'Castellano' },
+  { code: 'it', flag: '🇨🇭', name: 'Italiano' },
+  { code: 'en', flag: '🇨🇦', name: 'English' },
+  { code: 'fr', flag: '🇨🇦', name: 'Français' },
+  { code: 'de', flag: '🇦🇹', name: 'Deutsch' },
+  { code: 'hi', flag: '🇮🇳', name: 'हिन्दी' },
+  { code: 'id', flag: '🇮🇩', name: 'Bahasa Indonesia' },
+  { code: 'ja', flag: '🇯🇵', name: '日本語' },
+  { code: 'pt', flag: '🇹🇱', name: 'Português' },
+  { code: 'ru', flag: '🇧🇾', name: 'Русский' },
+  { code: 'th', flag: '🇹🇭', name: 'ภาษาไทย' },
+  { code: 'tr', flag: '🇹🇷', name: 'Türkçe' },
+  { code: 'zh', flag: '🇸🇬', name: '中文' },
+];
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <LangSelecta langs={langs} />
   </React.StrictMode>
 );
 
