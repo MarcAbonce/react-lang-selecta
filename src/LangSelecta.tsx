@@ -1,4 +1,4 @@
-import React from 'react';
+import { useMemo } from 'react';
 
 import _localeRegions from './data/locale_regions.json';
 
@@ -31,17 +31,36 @@ function pickRandomFlagEmoji(lang: string) {
   }
 }
 
-function LangSelecta({ langs } : LangSelectaProps) {
-  const langsData = langs.map(lang => ({
+// https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#Modern_method
+function shuffleList(list: string[]): string[] {
+  const listCopy = [...list];  // to avoid mutating the original list
+  const result: string[] = [];
+
+  for (let i = 0; i < list.length; i++) {
+    const index = Math.floor(Math.random() * listCopy.length);
+    const pickedItem = listCopy[index];
+    result.push(pickedItem);
+
+    // overwrite picked item with last element
+    const lastItem = listCopy.pop() as string;
+    if (lastItem !== pickedItem) {
+      listCopy[index] = lastItem;
+    }
+  }
+  return result;
+}
+
+function LangSelecta({ langs } : LangSelectaProps): JSX.Element {
+  const langsData = useMemo(() => shuffleList(langs).map(lang => ({
     code: lang,
     name: lang in localeRegions ? localeRegions[lang].name : lang,
     flag: pickRandomFlagEmoji(lang),
-  }));
+  })), [langs]);
 
   return (
     <select>
       {langsData.map(lang => (
-        <option value={lang.code}>{lang.flag} {lang.name}</option>
+        <option key={lang.code} value={lang.code}>{lang.flag} {lang.name}</option>
       ))}
     </select>
   );
