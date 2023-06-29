@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import LangSelecta from './LangSelecta';
 import reportWebVitals from './reportWebVitals';
 
-const langs = ['ar', 'es', 'it', 'en', 'fr', 'de', 'hi', 'pt', 'ru', 'zh'];
+const langs = ['ar', 'es', 'it', 'en', 'fr', 'de', 'hi', 'pt', 'ru', 'zh', 'yi', 'ff'];
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

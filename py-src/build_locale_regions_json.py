@@ -11,12 +11,13 @@ unofficial_locale_regions = {}
 
 def add_locale_to_dict(lang, region, locale_dict):
     if lang in locale_dict:
-        locale_dict[lang]['regions'].append(region)
+        if region not in locale_dict[lang]['regions']:
+            locale_dict[lang]['regions'].append(region)
     else:
         name = int_locale.languages.get(lang)
         if not name:
             name = Locale(lang).language_name
-        locale_dict[lang] = { 'name': name.title(), 'regions': [region] }
+        locale_dict[lang] = {'name': name.title(), 'regions': [region]}
 
 
 for locale in localedata.locale_identifiers():
@@ -31,6 +32,9 @@ for locale in localedata.locale_identifiers():
             add_locale_to_dict(lang, region, locale_regions)
         else:
             add_locale_to_dict(lang, region, unofficial_locale_regions)
+    elif locale_parts[-1] == '001':
+        # add United Nations for languages like Esperanto and Yiddish
+        add_locale_to_dict(locale_parts[0], 'UN', locale_regions)
 
 
 # merge back languages with no official region
