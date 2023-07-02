@@ -1,0 +1,1 @@
+export { LangSelecta } from './LangSelecta';
