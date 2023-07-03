@@ -1,14 +1,14 @@
-import { ComponentPropsWithoutRef, forwardRef } from 'react';
+import { type ComponentPropsWithoutRef, forwardRef } from 'react'
 
-import { useLangSelecta } from '../hooks/useLangSelecta';
+import { useLangSelecta } from '../hooks/useLangSelecta'
 
 export type LangSelectaProps = {
-  langs: string[];
-} & ComponentPropsWithoutRef<'select'>;
+  langs: string[]
+} & ComponentPropsWithoutRef<'select'>
 
-export const LangSelecta = forwardRef<HTMLSelectElement, LangSelectaProps>(
+const LangSelecta = forwardRef<HTMLSelectElement, LangSelectaProps>(
   ({ langs, ...rest }, ref): JSX.Element => {
-    const { langsData } = useLangSelecta({ langs });
+    const { langsData } = useLangSelecta({ langs })
 
     return (
       <select ref={ref} {...rest}>
@@ -16,6 +16,10 @@ export const LangSelecta = forwardRef<HTMLSelectElement, LangSelectaProps>(
           <option key={lang.code} value={lang.code}>{lang.flag} {lang.name}</option>
         ))}
       </select>
-    );
+    )
   }
-);
+)
+
+LangSelecta.displayName = 'LangSelecta'
+
+export default LangSelecta

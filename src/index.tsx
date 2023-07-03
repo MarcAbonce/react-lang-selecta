@@ -1,3 +1,3 @@
-import { LangSelecta } from "./components";
+import { LangSelecta } from './components'
 
-export default LangSelecta;
+export default LangSelecta

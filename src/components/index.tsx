@@ -1,2 +1,2 @@
-export { LangSelecta } from './LangSelecta';
-export type { LangSelectaProps } from './LangSelecta';
+export { LangSelecta } from './LangSelecta'
+export type { LangSelectaProps } from './LangSelecta'
