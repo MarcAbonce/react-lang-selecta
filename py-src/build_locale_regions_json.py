@@ -28,7 +28,7 @@ for locale in localedata.locale_identifiers():
 
         # if language is not official in region, store it separately
         # this avoids locales like "German English" or "Swiss Portuguese"
-        if lang in languages.get_official_languages(region):
+        if lang in map(lambda x: x.split('_')[0], languages.get_official_languages(region)):
             add_locale_to_dict(lang, region, locale_regions)
         else:
             add_locale_to_dict(lang, region, unofficial_locale_regions)
