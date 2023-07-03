@@ -19,11 +19,14 @@ export type LangSelectaHookProps = {
 };
 
 export const useLangSelecta = ({ langs } : LangSelectaHookProps) => {
-  const langsData = useMemo(() => shuffleList(langs).map(lang => ({
-    code: lang,
-    name: lang in localeRegions ? localeRegions[lang].name : lang,
-    flag: pickRandomFlagEmoji(lang),
-  })), [langs]);
+  const langsData = useMemo(() => shuffleList(langs).map(lang => {
+    const langCode = lang.split('-')[0];
+    return {
+      code: langCode,
+      name: langCode in localeRegions ? localeRegions[langCode].name : lang,
+      flag: pickRandomFlagEmoji(langCode),
+    };
+  }), [langs]);
 
   return { langsData };
 };
