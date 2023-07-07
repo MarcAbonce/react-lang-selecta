@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LangSelecta does not change 1`] = `
+<div>
+  <select>
+    <option
+      value="es"
+    >
+      🇮🇨
+       
+      Espaniol
+    </option>
+    <option
+      value="id"
+    >
+      🇮🇩
+       
+      Indonesiano
+    </option>
+  </select>
+</div>
+`;

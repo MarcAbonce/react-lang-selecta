@@ -1,7 +1,9 @@
 import { useMemo } from 'react'
 
 import { localeRegions } from '../data'
-import { getFlagEmoji, getRandomListIndex, shuffleList } from '../utils'
+import { getFlagEmoji } from '../utils/getFlagEmoji'
+import { getRandomListIndex } from '../utils/getRandomListIndex'
+import { shuffleList } from '../utils/shuffleList'
 
 export const pickRandomFlagEmoji = (lang: string): string => {
   if (lang in localeRegions) {
