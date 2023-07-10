@@ -1,8 +1,15 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
+
 import { type ChangeEvent } from 'react'
 import type { Meta, StoryObj } from '@storybook/react'
 import { useArgs } from '@storybook/preview-api'
 
-import { LangSelecta, type LangSelectaProps } from '../components'
+import type { LangSelectaProps } from '../components'
+import LangSelecta from '..'
 
 const meta: Meta<typeof LangSelecta> = {
   component: LangSelecta
