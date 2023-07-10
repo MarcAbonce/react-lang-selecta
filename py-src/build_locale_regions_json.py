@@ -43,5 +43,9 @@ for lang in unofficial_locale_regions:
         locale_regions[lang] = unofficial_locale_regions[lang]
 
 
+# sort regions so each run returns same output
+for locale in locale_regions:
+    locale_regions[locale]['regions'] = sorted(locale_regions[locale]['regions'])
+
 with open('../src/data/locale_regions.json', 'w+') as f:
-    json.dump(locale_regions, f)
+    json.dump(locale_regions, f, sort_keys=True)
