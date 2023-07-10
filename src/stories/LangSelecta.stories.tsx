@@ -23,7 +23,7 @@ export const Simple: Story = {
 export const Complete: Story = {
   render: (args: LangSelectaProps) => (
     <>
-      <label htmlFor={args.id}>Choose wisely:</label>
+      <label htmlFor={args.id}>Idioma:</label>
       <LangSelecta {...args} />
     </>
   ),
