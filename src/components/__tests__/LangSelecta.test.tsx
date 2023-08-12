@@ -21,12 +21,14 @@ describe('LangSelecta component', () => {
         {
           code: 'yi',
           name: 'Yugopotamian',
-          flag: '🏴‍☠️'
+          flag: '🏴‍☠️',
+          optionName: '🏴‍☠ Yugopotamian'
         },
         {
           code: 'pl',
           name: 'Pig Latin',
-          flag: '🇻🇦'
+          flag: '🇻🇦',
+          optionName: '🇻🇦 Pig Latin'
         }
       ]
     })

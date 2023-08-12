@@ -5,6 +5,7 @@
  */
 
 import { useMemo } from 'react'
+import leftPad from 'left-pad'
 
 import { localeRegions } from '../data'
 import { getFlagEmoji } from '../utils/getFlagEmoji'
@@ -31,16 +32,22 @@ export interface LangSelectaHookResult {
     code: string
     name: string
     flag: string
+    optionName: string
   }>
 }
 
 export const useLangSelecta = ({ langs }: LangSelectaHookProps): LangSelectaHookResult => {
   const langsData = useMemo(() => shuffleList(langs).map(lang => {
     const langCode = lang.split('-')[0]
+    const flag = pickRandomFlagEmoji(langCode)
+    const name = langCode in localeRegions ? localeRegions[langCode].name : lang
+    const optionName = flag + leftPad(name, name.length + 1)
+
     return {
       code: langCode,
-      name: langCode in localeRegions ? localeRegions[langCode].name : lang,
-      flag: pickRandomFlagEmoji(langCode)
+      name,
+      flag,
+      optionName
     }
   }), [langs])
 

@@ -38,12 +38,14 @@ describe('useLangSelecta', () => {
         {
           code: 'rm',
           name: 'Romanche',
-          flag: '🇨🇭'
+          flag: '🇨🇭',
+          optionName: '🇨🇭 Romanche'
         },
         {
           code: 'es',
           name: 'Castellano',
-          flag: '🇦🇷'
+          flag: '🇦🇷',
+          optionName: '🇦🇷 Castellano'
         }
       ]
     })
@@ -56,7 +58,8 @@ describe('useLangSelecta', () => {
         {
           code: 'xxx',
           name: 'xxx',
-          flag: '🇺🇳'
+          flag: '🇺🇳',
+          optionName: '🇺🇳 xxx'
         }
       ]
     })

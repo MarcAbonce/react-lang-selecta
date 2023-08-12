@@ -19,7 +19,7 @@ const LangSelecta = forwardRef<HTMLSelectElement, LangSelectaProps>(
     return (
       <select ref={ref} {...rest}>
         {langsData.map(lang => (
-          <option key={lang.code} value={lang.code}>{lang.flag} {lang.name}</option>
+          <option key={lang.code} value={lang.code}>{lang.optionName}</option>
         ))}
       </select>
     )

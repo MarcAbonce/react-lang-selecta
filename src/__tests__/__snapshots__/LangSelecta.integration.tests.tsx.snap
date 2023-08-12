@@ -6,16 +6,12 @@ exports[`LangSelecta does not change 1`] = `
     <option
       value="es"
     >
-      🇦🇷
-       
-      Espaniol
+      🇦🇷 Espaniol
     </option>
     <option
       value="id"
     >
-      🇮🇩
-       
-      Indonesiano
+      🇮🇩 Indonesiano
     </option>
   </select>
 </div>

@@ -6,16 +6,12 @@ exports[`LangSelecta component does not change 1`] = `
     <option
       value="yi"
     >
-      🏴‍☠️
-       
-      Yugopotamian
+      🏴‍☠ Yugopotamian
     </option>
     <option
       value="pl"
     >
-      🇻🇦
-       
-      Pig Latin
+      🇻🇦 Pig Latin
     </option>
   </select>
 </div>
