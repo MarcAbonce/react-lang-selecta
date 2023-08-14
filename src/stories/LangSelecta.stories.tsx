@@ -38,7 +38,10 @@ export const Complete: Story = {
     defaultValue: 'ff',
     id: 'lang-selecta',
     name: 'lang',
-    langs,
+    langs: [...langs, 'yaq'],
+    extraLangData: {
+      yaq: { name: 'Yaqui', flags: ['🇲🇽', '🇺🇸'] }
+    },
     style: { borderRadius: '10px', marginLeft: '10px', fontSize: '1.5rem' }
   }
 }

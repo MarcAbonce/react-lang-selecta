@@ -9,6 +9,10 @@ import { axe } from 'jest-axe'
 
 import LangSelecta from '..'
 
+const extraLangData = {
+  oto: { name: 'Otomi', flags: ['🇲🇽'] }
+}
+
 describe('LangSelecta', () => {
   beforeEach(() => {
     jest.spyOn(global.Math, 'random').mockReturnValue(0)
@@ -19,14 +23,14 @@ describe('LangSelecta', () => {
   })
 
   it('does not change', () => {
-    expect(render(<LangSelecta langs={['es', 'id']} />).container).toMatchSnapshot()
+    expect(render(<LangSelecta langs={['es', 'id', 'oto']} extraLangData={extraLangData} />).container).toMatchSnapshot()
   })
 
   it('does not contain a11y violations', async () => {
     const { container } = render(
       <label>
         Select a language:
-        <LangSelecta langs={['es', 'id']} />
+        <LangSelecta langs={['es', 'id', 'oto']} extraLangData={extraLangData} />
       </label>
     )
     expect(await axe(container)).toHaveNoViolations()

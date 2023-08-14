@@ -8,23 +8,14 @@ import { useMemo } from 'react'
 import leftPad from 'left-pad'
 
 import { localeRegions } from '../data'
-import { getFlagEmoji } from '../utils/getFlagEmoji'
 import { getRandomListIndex } from '../utils/getRandomListIndex'
 import { shuffleList } from '../utils/shuffleList'
-
-export const pickRandomFlagEmoji = (lang: string): string => {
-  if (lang in localeRegions) {
-    const regions = localeRegions[lang].regions
-    const index = getRandomListIndex(regions.length)
-    return getFlagEmoji(regions[index])
-  } else {
-    // return United Nations flag as a fallback
-    return '🇺🇳'
-  }
-}
+import type { ExtraLangData } from '../types'
+import { pickRandomFlagEmoji } from '../utils/pickRandomFlagEmoji'
 
 export interface LangSelectaHookProps {
   langs: string[]
+  extraLangData?: ExtraLangData
 }
 
 export interface LangSelectaHookResult {
@@ -36,11 +27,21 @@ export interface LangSelectaHookResult {
   }>
 }
 
-export const useLangSelecta = ({ langs }: LangSelectaHookProps): LangSelectaHookResult => {
+export const useLangSelecta = ({ langs, extraLangData }: LangSelectaHookProps): LangSelectaHookResult => {
   const langsData = useMemo(() => shuffleList(langs).map(lang => {
-    const langCode = lang.split('-')[0]
-    const flag = pickRandomFlagEmoji(langCode)
-    const name = langCode in localeRegions ? localeRegions[langCode].name : lang
+    let langCode, name, flag
+    // extraLangData can override localeRegions
+    if (extraLangData !== undefined && lang in extraLangData) {
+      const langFlags = extraLangData[lang].flags
+      flag = langFlags[getRandomListIndex(langFlags.length)]
+      langCode = lang
+      name = extraLangData[lang].name
+    } else {
+      langCode = lang.split('-')[0]
+      flag = pickRandomFlagEmoji(langCode)
+      name = langCode in localeRegions ? localeRegions[langCode].name : lang
+    }
+
     const optionName = flag + leftPad(name, name.length + 1)
 
     return {
@@ -49,7 +50,7 @@ export const useLangSelecta = ({ langs }: LangSelectaHookProps): LangSelectaHook
       flag,
       optionName
     }
-  }), [langs])
+  }), [langs, extraLangData])
 
   return { langsData }
 }

@@ -7,14 +7,16 @@
 import { type ComponentPropsWithoutRef, forwardRef } from 'react'
 
 import { useLangSelecta } from '../hooks/useLangSelecta'
+import type { ExtraLangData } from '../types'
 
 export type LangSelectaProps = {
   langs: string[]
+  extraLangData?: ExtraLangData
 } & ComponentPropsWithoutRef<'select'>
 
 const LangSelecta = forwardRef<HTMLSelectElement, LangSelectaProps>(
-  ({ langs, ...rest }, ref): JSX.Element => {
-    const { langsData } = useLangSelecta({ langs })
+  ({ langs, extraLangData, ...rest }, ref): JSX.Element => {
+    const { langsData } = useLangSelecta({ langs, extraLangData })
 
     return (
       <select ref={ref} {...rest}>

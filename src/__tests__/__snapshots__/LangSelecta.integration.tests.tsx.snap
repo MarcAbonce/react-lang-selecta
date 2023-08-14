@@ -9,6 +9,11 @@ exports[`LangSelecta does not change 1`] = `
       🇦🇷 Espaniol
     </option>
     <option
+      value="oto"
+    >
+      🇲🇽 Otomi
+    </option>
+    <option
       value="id"
     >
       🇮🇩 Indonesiano

@@ -16,7 +16,7 @@ jest.mock('../../data', () => ({
     es: { name: 'Castellano', regions: ['AR', 'US', 'UY'] },
     haw: { name: 'Hawaiano', regions: ['US'] },
     rm: { name: 'Romanche', regions: ['CH'] },
-    ms: { name: 'Malayo', regions: ['BN', 'ID', 'MY', 'SG'] }
+    gd: { name: 'Gaélico Escocés', regions: ['GB'] }
   }
 }))
 jest.mock('../../utils/getRandomListIndex')
@@ -46,6 +46,36 @@ describe('useLangSelecta', () => {
           name: 'Castellano',
           flag: '🇦🇷',
           optionName: '🇦🇷 Castellano'
+        }
+      ]
+    })
+  })
+
+  it('picks data from extraLangData if available', () => {
+    const extraLangData = {
+      oto: { name: 'Otomí', flags: ['🇲🇽'] },
+      gd: { name: 'Gaélico Escocés', flags: ['🏴󠁧󠁢󠁳󠁣󠁴󠁿'] }
+    }
+    const result = renderHook(() => useLangSelecta({ langs: ['gd', 'oto', 'haw'], extraLangData })).result
+    expect(result.current).toStrictEqual({
+      langsData: [
+        {
+          code: 'haw',
+          name: 'Hawaiano',
+          flag: '🇺🇸',
+          optionName: '🇺🇸 Hawaiano'
+        },
+        {
+          code: 'oto',
+          name: 'Otomí',
+          flag: '🇲🇽',
+          optionName: '🇲🇽 Otomí'
+        },
+        {
+          code: 'gd',
+          name: 'Gaélico Escocés',
+          flag: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+          optionName: '🏴󠁧󠁢󠁳󠁣󠁴󠁿 Gaélico Escocés'
         }
       ]
     })
