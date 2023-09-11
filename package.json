@@ -1,21 +1,22 @@
 {
-  "name": "react_lang_selecta",
+  "name": "react-lang-selecta",
   "description": "Language selector component with flag emojies",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "license": "MPL-2.0",
   "private": true,
+  "main": "dist/react-lang-selecta.js",
+  "typings": "dist/types/index.d.ts",
   "dependencies": {
     "@types/node": "^16.18.31",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "left-pad": "^1.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npx webpack --config webpack.config.js",
     "test": "react-scripts test",
     "test-all": "react-scripts test src --coverage",
     "eject": "react-scripts eject",
@@ -33,18 +34,6 @@
   "jest": {
     "coveragePathIgnorePatterns": [
       "^.*\\.stories\\.[jt]sx?$"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
     ]
   },
   "devDependencies": {
@@ -75,8 +64,11 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
     "storybook": "^7.0.24",
+    "ts-loader": "^9.4.4",
     "typescript": "^4.1.6",
-    "webpack": "^5.88.1"
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
   }
 }

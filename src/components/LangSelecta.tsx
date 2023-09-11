@@ -4,7 +4,7 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  */
 
-import { type ComponentPropsWithoutRef, forwardRef } from 'react'
+import { forwardRef, type ComponentPropsWithoutRef } from 'react'
 
 import { useLangSelecta } from '../hooks/useLangSelecta'
 import type { ExtraLangData } from '../types'
