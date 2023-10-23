@@ -4,12 +4,11 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  */
 
-import React from 'react'
 import { type ChangeEvent } from 'react'
 import type { Meta, StoryObj } from '@storybook/react'
 import { useArgs } from '@storybook/preview-api'
 
-import type { LangSelectaProps } from '../components'
+import type { LangSelectaProps } from '..'
 import LangSelecta from '..'
 
 const meta: Meta<typeof LangSelecta> = {
