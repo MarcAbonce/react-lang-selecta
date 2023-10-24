@@ -40,7 +40,6 @@ You could also control the component, style it and use more props. Check out the
 - Language names are all written in the international language so you don't get confused with foreign fonts.  
 - Includes every national flag as long as it's recognized by the ~~USA~~ Unicode Consortium.  
 - Leverages the power of popular dependencies such as `left-pad` to avoid reinventing the wheel.  
-- Leftover stuff from the `create-react-app` script. This one wasn't even on purpose.  
 
 ## How to contribute
 
