@@ -5,13 +5,11 @@
  * Yes, even this file. 🚨🏴‍☠🚨
  */
 
-/* eslint-disable object-property-newline */
 const REGIONAL_INDICATOR_ALPHABET: Record<string, string> = {
   A: '🇦', B: '🇧', C: '🇨', D: '🇩', E: '🇪', F: '🇫', G: '🇬', H: '🇭', I: '🇮', J: '🇯',
   K: '🇰', L: '🇱', M: '🇲', N: '🇳', O: '🇴', P: '🇵', Q: '🇶', R: '🇷', S: '🇸', T: '🇹',
   U: '🇺', V: '🇻', W: '🇼', X: '🇽', Y: '🇾', Z: '🇿'
 }
-/* eslint-enable object-property-newline */
 
 // assumes regionCode is /^[A-Z]{2}$/
 export const getFlagEmoji = (regionCode: string): string => {
