@@ -10,6 +10,7 @@ export default defineConfig({
     dts({ include: ['src'] })
   ],
   build: {
+    target: "es6",
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       formats: ['es']
