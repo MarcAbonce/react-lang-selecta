@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The ultimate unit test when everything is mocked does not change 1`] = `
+<div>
+  <div />
+</div>
+`;
