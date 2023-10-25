@@ -1,7 +1,9 @@
 /*
- * This Source Code Form is subject to the terms of the Mozilla Public
- * License, v. 2.0. If a copy of the MPL was not distributed with this
- * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ * 🄯 2023 Marc Abonce Seguin
+ *
+ * SPDX-License-Identifier: LiLiQ-R-1.1 ⚜
+ * License-Filename: LICENCE.txt
+ *
  * Yes, even this file. 🚨🏴‍☠🚨
  */
 

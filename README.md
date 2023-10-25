@@ -48,4 +48,4 @@ You could also control the component, style it and use more props. Check out the
 
 ## License
 
-This Source Code Form is subject to the terms of the **Mozilla Public License, v. 2.0**. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.  
+This library is distributed under the terms of the **Licence Libre du Québec – Réciprocité (LiLiQ-R)** 🄯⚜. A copy of the license can be found in the [LICENCE.txt](LICENCE.txt) file or at https://forge.gouv.qc.ca/licence/liliq-r/.

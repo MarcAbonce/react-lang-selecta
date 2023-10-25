@@ -1,8 +1,9 @@
 {
   "name": "react-lang-selecta",
-  "description": "Language selector component with flag emojies",
   "version": "0.8.0",
-  "license": "MPL-2.0",
+  "description": "Language selector component with flag emojies",
+  "author": "Marc Abonce Seguin",
+  "license": "LiLiQ-R-1.1",
   "private": true,
   "type": "module",
   "main": "dist/react-lang-selecta.js",
