@@ -17,6 +17,7 @@ import { useLangSelecta } from '../hooks/useLangSelecta'
 jest.mock('../components/LangSelecta', () => ({
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   LangSelecta: (props: any) => {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
     mockUseLangSelecta(props)
     return <div />
   }
@@ -28,7 +29,7 @@ const mockUseLangSelecta = jest.mocked(useLangSelecta)
 describe('The ultimate unit test', () => {
   describe('when everything is mocked', () => {
     beforeEach(() => {
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-unsafe-argument
       mockUseLangSelecta.mockReturnValue(true as any)
     })
 

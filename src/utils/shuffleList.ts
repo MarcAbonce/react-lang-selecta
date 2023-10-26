@@ -18,7 +18,7 @@ export const shuffleList = (list: string[]): string[] => {
     result.push(pickedItem)
 
     // overwrite picked item with last element
-    const lastItem = listCopy.pop() as string
+    const lastItem = listCopy.pop()!
     if (lastItem !== pickedItem) {
       listCopy[index] = lastItem
     }

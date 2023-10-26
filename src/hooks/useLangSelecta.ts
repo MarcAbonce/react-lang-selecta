@@ -20,12 +20,12 @@ export interface LangSelectaHookProps {
 }
 
 export interface LangSelectaHookResult {
-  langsData: Array<{
+  langsData: {
     code: string
     name: string
     flag: string
     optionName: string
-  }>
+  }[]
 }
 
 export const useLangSelecta = ({ langs, extraLangData }: LangSelectaHookProps): LangSelectaHookResult => {
