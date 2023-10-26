@@ -5,37 +5,39 @@
  * License-Filename: LICENCE.txt
  */
 
-import { render } from '@testing-library/react'
+import { render } from "@testing-library/react";
 
-import { useLangSelecta } from '../../hooks/useLangSelecta'
+import { useLangSelecta } from "../../hooks/useLangSelecta";
 
-import { LangSelecta } from '../LangSelecta'
+import { LangSelecta } from "../LangSelecta";
 
-jest.mock('../../hooks/useLangSelecta')
+jest.mock("../../hooks/useLangSelecta");
 
-const mockUseLangSelecta = jest.mocked(useLangSelecta)
+const mockUseLangSelecta = jest.mocked(useLangSelecta);
 
-describe('LangSelecta component', () => {
+describe("LangSelecta component", () => {
   beforeEach(() => {
     mockUseLangSelecta.mockReturnValue({
       langsData: [
         {
-          code: 'yi',
-          name: 'Yugopotamian',
-          flag: '🏴‍☠️',
-          optionName: '🏴‍☠ Yugopotamian'
+          code: "yi",
+          name: "Yugopotamian",
+          flag: "🏴‍☠️",
+          optionName: "🏴‍☠ Yugopotamian",
         },
         {
-          code: 'pl',
-          name: 'Pig Latin',
-          flag: '🇻🇦',
-          optionName: '🇻🇦 Pig Latin'
-        }
-      ]
-    })
-  })
+          code: "pl",
+          name: "Pig Latin",
+          flag: "🇻🇦",
+          optionName: "🇻🇦 Pig Latin",
+        },
+      ],
+    });
+  });
 
-  it('does not change', () => {
-    expect(render(<LangSelecta langs={['yi', 'pl']} />).container).toMatchSnapshot()
-  })
-})
+  it("does not change", () => {
+    expect(
+      render(<LangSelecta langs={["yi", "pl"]} />).container,
+    ).toMatchSnapshot();
+  });
+});

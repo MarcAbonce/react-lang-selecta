@@ -7,7 +7,10 @@
  * Yes, even these type defs. 🚨🏴‍☠🚨
  */
 
-export type ExtraLangData = Record<string, {
-  name: string
-  flags: string[]
-}>
+export type ExtraLangData = Record<
+  string,
+  {
+    name: string;
+    flags: string[];
+  }
+>;
