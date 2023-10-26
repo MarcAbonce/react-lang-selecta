@@ -5,35 +5,45 @@
  * License-Filename: LICENCE.txt
  */
 
-import { render } from '@testing-library/react'
-import { axe } from 'jest-axe'
+import { render } from "@testing-library/react";
+import { axe } from "jest-axe";
 
-import LangSelecta from '..'
+import LangSelecta from "..";
 
 const extraLangData = {
-  oto: { name: 'Otomi', flags: ['🇲🇽'] }
-}
+  oto: { name: "Otomi", flags: ["🇲🇽"] },
+};
 
-describe('LangSelecta', () => {
+describe("LangSelecta", () => {
   beforeEach(() => {
-    jest.spyOn(global.Math, 'random').mockReturnValue(0)
-  })
+    jest.spyOn(global.Math, "random").mockReturnValue(0);
+  });
 
   afterEach(() => {
-    jest.spyOn(global.Math, 'random').mockRestore()
-  })
+    jest.spyOn(global.Math, "random").mockRestore();
+  });
 
-  it('does not change', () => {
-    expect(render(<LangSelecta langs={['es', 'id', 'oto']} extraLangData={extraLangData} />).container).toMatchSnapshot()
-  })
+  it("does not change", () => {
+    expect(
+      render(
+        <LangSelecta
+          langs={["es", "id", "oto"]}
+          extraLangData={extraLangData}
+        />,
+      ).container,
+    ).toMatchSnapshot();
+  });
 
-  it('does not contain a11y violations', async () => {
+  it("does not contain a11y violations", async () => {
     const { container } = render(
       <label>
         Select a language:
-        <LangSelecta langs={['es', 'id', 'oto']} extraLangData={extraLangData} />
-      </label>
-    )
-    expect(await axe(container)).toHaveNoViolations()
-  })
-})
+        <LangSelecta
+          langs={["es", "id", "oto"]}
+          extraLangData={extraLangData}
+        />
+      </label>,
+    );
+    expect(await axe(container)).toHaveNoViolations();
+  });
+});

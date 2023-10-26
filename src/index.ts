@@ -1,4 +1,4 @@
-import { LangSelecta } from './components/LangSelecta'
-export type { LangSelectaProps } from './components/LangSelecta'
+import { LangSelecta } from "./components/LangSelecta";
+export type { LangSelectaProps } from "./components/LangSelecta";
 
-export default LangSelecta
+export default LangSelecta;

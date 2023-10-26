@@ -5,30 +5,32 @@
  * License-Filename: LICENCE.txt
  */
 
-import { forwardRef, type ComponentPropsWithoutRef } from 'react'
+import { forwardRef, type ComponentPropsWithoutRef } from "react";
 
-import { useLangSelecta } from '../hooks/useLangSelecta'
-import type { ExtraLangData } from '../types'
+import { useLangSelecta } from "../hooks/useLangSelecta";
+import type { ExtraLangData } from "../types";
 
 export type LangSelectaProps = {
-  langs: string[]
-  extraLangData?: ExtraLangData
-} & ComponentPropsWithoutRef<'select'>
+  langs: string[];
+  extraLangData?: ExtraLangData;
+} & ComponentPropsWithoutRef<"select">;
 
 const LangSelecta = forwardRef<HTMLSelectElement, LangSelectaProps>(
   ({ langs, extraLangData, ...rest }, ref): JSX.Element => {
-    const { langsData } = useLangSelecta({ langs, extraLangData })
+    const { langsData } = useLangSelecta({ langs, extraLangData });
 
     return (
       <select ref={ref} {...rest}>
-        {langsData.map(lang => (
-          <option key={lang.code} value={lang.code}>{lang.optionName}</option>
+        {langsData.map((lang) => (
+          <option key={lang.code} value={lang.code}>
+            {lang.optionName}
+          </option>
         ))}
       </select>
-    )
-  }
-)
+    );
+  },
+);
 
-LangSelecta.displayName = 'LangSelecta'
+LangSelecta.displayName = "LangSelecta";
 
-export { LangSelecta }
+export { LangSelecta };
