@@ -49,3 +49,17 @@ You could also control the component, style it and use more props. Check out the
 ## License
 
 This library is distributed under the terms of the **Licence Libre du Québec – Réciprocité (LiLiQ-R)** 🄯⚜. A copy of the license can be found in the [LICENCE.txt](LICENCE.txt) file or at https://forge.gouv.qc.ca/licence/liliq-r/.
+
+## Frequently Unasked Questions
+
+1. Where did you get the data about the locales and the regions from?  
+
+The data comes from the [Unicode CLDR](https://cldr.unicode.org/) v42, specifically through the [Python Babel](https://babel.pocoo.org/en/latest/) library.
+
+2. The data is wrong and I'm offended!  
+
+Fix it upstream in the [Unicode CLDR](https://cldr.unicode.org/) so that ~~I don't have to deal with it~~ the entire World can benefit from your contribution.
+
+3. Why do you use the LiLiQ license if you're not in Québec?  
+
+Why do you use the MIT license if you're not in Massachusetts?
