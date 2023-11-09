@@ -7,7 +7,7 @@
  * Yes, even this unit test. 🚨🏴‍☠🚨
  */
 
-import { getFlagEmoji } from "../getFlagEmoji";
+import { getFlagEmoji } from "..";
 
 describe("getFlagEmoji", () => {
   it("works", () => {

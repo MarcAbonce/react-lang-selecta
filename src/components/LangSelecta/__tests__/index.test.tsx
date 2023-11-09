@@ -7,11 +7,11 @@
 
 import { render } from "@testing-library/react";
 
-import { useLangSelecta } from "../../hooks/useLangSelecta";
+import { useLangSelecta } from "../../../hooks/useLangSelecta";
 
-import { LangSelecta } from "../LangSelecta";
+import { LangSelecta } from "..";
 
-jest.mock("../../hooks/useLangSelecta");
+jest.mock("../../../hooks/useLangSelecta");
 
 const mockUseLangSelecta = jest.mocked(useLangSelecta);
 

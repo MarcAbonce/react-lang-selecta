@@ -5,9 +5,9 @@
  * License-Filename: LICENCE.txt
  */
 
-import { localeRegions } from "../data";
-import { getFlagEmoji } from "./getFlagEmoji";
-import { getRandomListIndex } from "./getRandomListIndex";
+import { localeRegions } from "../../data";
+import { getFlagEmoji } from "../getFlagEmoji";
+import { getRandomListIndex } from "../getRandomListIndex";
 
 export const pickRandomFlagEmoji = (lang: string): string => {
   if (lang in localeRegions) {

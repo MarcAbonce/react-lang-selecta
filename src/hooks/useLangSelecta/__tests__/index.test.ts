@@ -7,12 +7,12 @@
 
 import { renderHook } from "@testing-library/react";
 
-import { getRandomListIndex } from "../../utils/getRandomListIndex";
-import { shuffleList } from "../../utils/shuffleList";
+import { getRandomListIndex } from "../../../utils/getRandomListIndex";
+import { shuffleList } from "../../../utils/shuffleList";
 
-import { useLangSelecta } from "../useLangSelecta";
+import { useLangSelecta } from "..";
 
-jest.mock("../../data", () => ({
+jest.mock("../../../data", () => ({
   localeRegions: {
     es: { name: "Castellano", regions: ["AR", "US", "UY"] },
     haw: { name: "Hawaiano", regions: ["US"] },
@@ -20,8 +20,8 @@ jest.mock("../../data", () => ({
     gd: { name: "Gaélico Escocés", regions: ["GB"] },
   },
 }));
-jest.mock("../../utils/getRandomListIndex");
-jest.mock("../../utils/shuffleList");
+jest.mock("../../../utils/getRandomListIndex");
+jest.mock("../../../utils/shuffleList");
 
 const mockGetRandomListIndex = jest.mocked(getRandomListIndex);
 const mockShuffleList = jest.mocked(shuffleList);

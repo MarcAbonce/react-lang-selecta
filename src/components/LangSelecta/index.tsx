@@ -7,8 +7,8 @@
 
 import { forwardRef, type ComponentPropsWithoutRef } from "react";
 
-import { useLangSelecta } from "../hooks/useLangSelecta";
-import type { ExtraLangData } from "../types";
+import { useLangSelecta } from "../../hooks/useLangSelecta";
+import type { ExtraLangData } from "../../types";
 
 export type LangSelectaProps = {
   langs: string[];

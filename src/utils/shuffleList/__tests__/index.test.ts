@@ -7,11 +7,11 @@
  * Yes, even this unit test. 🚨🏴‍☠🚨
  */
 
-import { getRandomListIndex } from "../getRandomListIndex";
+import { getRandomListIndex } from "../../getRandomListIndex";
 
-import { shuffleList } from "../shuffleList";
+import { shuffleList } from "../";
 
-jest.mock("../getRandomListIndex");
+jest.mock("../../getRandomListIndex");
 
 const mockGetRandomListIndex = jest.mocked(getRandomListIndex);
 

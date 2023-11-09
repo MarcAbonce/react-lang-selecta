@@ -8,11 +8,11 @@
 import { useMemo } from "react";
 import leftPad from "left-pad";
 
-import { localeRegions } from "../data";
-import { getRandomListIndex } from "../utils/getRandomListIndex";
-import { shuffleList } from "../utils/shuffleList";
-import type { ExtraLangData } from "../types";
-import { pickRandomFlagEmoji } from "../utils/pickRandomFlagEmoji";
+import { localeRegions } from "../../data";
+import { getRandomListIndex } from "../../utils/getRandomListIndex";
+import { shuffleList } from "../../utils/shuffleList";
+import type { ExtraLangData } from "../../types";
+import { pickRandomFlagEmoji } from "../../utils/pickRandomFlagEmoji/pickRandomFlagEmoji";
 
 export interface LangSelectaHookProps {
   langs: string[];

@@ -5,7 +5,7 @@
  * License-Filename: LICENCE.txt
  */
 
-import { getRandomListIndex } from "./getRandomListIndex";
+import { getRandomListIndex } from "../getRandomListIndex";
 
 // https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#Modern_method
 export const shuffleList = (list: string[]): string[] => {
