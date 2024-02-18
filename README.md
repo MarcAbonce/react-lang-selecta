@@ -49,7 +49,7 @@ You could also control the component, style it and use more props. Check out the
 
 ## License
 
-This library is distributed under the terms of the **Licence Libre du Québec – Réciprocité (LiLiQ-R)** 🄯⚜. A copy of the license can be found in the [LICENCE.txt](LICENCE.txt) file or at https://forge.gouv.qc.ca/licence/liliq-r/.  
+This library is distributed under the terms of the **Licence Libre du Québec – Réciprocité (LiLiQ-R)** 🄯⚜. A copy of the license can be found in the [LICENCE.txt](https://github.com/MarcAbonce/react-lang-selecta/blob/maestro/LICENCE.txt) file or at https://forge.gouv.qc.ca/licence/liliq-r/.  
 
 ## Frequently Unasked Questions
 

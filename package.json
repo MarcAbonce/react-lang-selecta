@@ -1,6 +1,6 @@
 {
   "name": "react-lang-selecta",
-  "version": "1.1.1",
+  "version": "1.1.3",
   "description": "Language selector component with flag emojies",
   "author": "Marc Abonce Seguin",
   "license": "LiLiQ-R-1.1",
@@ -10,6 +10,16 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarcAbonce/react-lang-selecta.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "i18n",
+    "satire"
   ],
   "scripts": {
     "dev": "vite",
