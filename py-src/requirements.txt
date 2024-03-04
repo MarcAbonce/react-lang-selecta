@@ -1,2 +1,2 @@
-Babel==2.12.1
+Babel>=2.12.1
 pycodestyle==2.10.0

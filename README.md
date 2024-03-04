@@ -2,7 +2,7 @@
 
 > **⚠ Warning! ⚠** This lib is satirical, inspired by my personal experiences dealing with i18n and with front-end code.  
 
-Language selector component with flag emojies.  
+Language selector component with random flag emojies.  
 
 You just give it a list of language codes and it gives you a `select` element with each language as an option along with the flag of the language.  
 
@@ -38,7 +38,7 @@ You could also control the component, style it and use more props. Check out the
 
 - Not knowing the difference between a language and a locale.  
 - Language names are all written in the international language so you don't get confused with foreign fonts.  
-- Includes every national flag as long as it's recognized by the ~~USA~~ Unicode Consortium.  
+- Random language flags, ensuring that all Nations are treated equally... as long as they're recognized by the ~~USA~~ Unicode Consortium.  
 - Leverages the power of popular dependencies such as `left-pad` to avoid reinventing the wheel.  
 - Tests mocked component that calls a mocked hook to ensure that empty `div` equals empty `div` snapshot.  
 - Every file is called `index` to turn your code editor into a fun maze for the entire family to enjoy.  
