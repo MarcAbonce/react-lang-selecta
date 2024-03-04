@@ -54,13 +54,10 @@ This library is distributed under the terms of the **Licence Libre du Québec �
 ## Frequently Unasked Questions
 
 1. Where did you get the data about the locales and the regions from?  
-
-The data comes from the [Unicode CLDR](https://cldr.unicode.org/) v42, specifically through the [Python Babel](https://babel.pocoo.org/en/latest/) library.  
+    - The data comes from the [Unicode CLDR](https://cldr.unicode.org/) v42, specifically through the [Python Babel](https://babel.pocoo.org/en/latest/) library.  
 
 2. The data is wrong and I'm offended!  
-
-Fix it upstream in the [Unicode CLDR](https://cldr.unicode.org/) so that ~~I don't have to deal with it~~ the entire World can benefit from your contribution.  
+    - Fix it upstream in the [Unicode CLDR](https://cldr.unicode.org/) so that ~~I don't have to deal with it~~ the entire World can benefit from your contribution.  
 
 3. Why do you use the LiLiQ license if you're not in Québec?  
-
-Why do you use the MIT license if you're not in Massachusetts?  
+    - Why do you use the MIT license if you're not in Massachusetts?  
