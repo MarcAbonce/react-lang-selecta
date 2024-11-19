@@ -26,5 +26,8 @@ yarn-error.log*
 py-src/env
 py-src/venv
 
+# Ethnologue dataset
+py-src/data/LanguageCodes.tab
+
 # vim:wq
 *.swp
