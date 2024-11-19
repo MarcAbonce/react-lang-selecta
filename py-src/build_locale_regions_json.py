@@ -6,6 +6,7 @@ import re
 import json
 
 from babel import Locale, languages, localedata
+# from requests import get
 
 
 int_locale = Locale('ia')
@@ -53,4 +54,4 @@ for locale in locale_regions:
     locale_regions[locale]['regions'] = sorted(locale_regions[locale]['regions'])
 
 with open('../src/data/locale_regions.json', 'w+') as f:
-    json.dump(locale_regions, f, sort_keys=True)
+    json.dump(locale_regions, f, sort_keys=True, indent=2)

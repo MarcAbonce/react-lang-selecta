@@ -24,6 +24,7 @@ yarn-error.log*
 
 # py env
 py-src/env
+py-src/venv
 
 # vim:wq
 *.swp
