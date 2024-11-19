@@ -1,4 +1,18 @@
 {
+  "aa": {
+    "name": "Afar",
+    "regions": [
+      "DJ",
+      "ER",
+      "ET"
+    ]
+  },
+  "ab": {
+    "name": "Abkhazo",
+    "regions": [
+      "GE"
+    ]
+  },
   "af": {
     "name": "Afrikaans",
     "regions": [
@@ -24,10 +38,22 @@
       "ET"
     ]
   },
+  "an": {
+    "name": "Aragonese",
+    "regions": [
+      "ES"
+    ]
+  },
   "ann": {
     "name": "Obolo",
     "regions": [
       "NG"
+    ]
+  },
+  "apc": {
+    "name": "\u0627\u0644\u0639\u0627\u0645\u064a\u0629",
+    "regions": [
+      "SY"
     ]
   },
   "ar": {
@@ -62,6 +88,12 @@
       "YE"
     ]
   },
+  "arn": {
+    "name": "Mapuche",
+    "regions": [
+      "CL"
+    ]
+  },
   "as": {
     "name": "Assamese",
     "regions": [
@@ -86,6 +118,18 @@
       "AZ"
     ]
   },
+  "ba": {
+    "name": "Bashkir",
+    "regions": [
+      "RU"
+    ]
+  },
+  "bal": {
+    "name": "\u0628\u0644\u06c6\u0686\u06cc",
+    "regions": [
+      "PK"
+    ]
+  },
   "bas": {
     "name": "Basaa",
     "regions": [
@@ -102,6 +146,12 @@
     "name": "Bemba",
     "regions": [
       "ZM"
+    ]
+  },
+  "bew": {
+    "name": "Betawi",
+    "regions": [
+      "ID"
     ]
   },
   "bez": {
@@ -122,10 +172,32 @@
       "IN"
     ]
   },
+  "bgn": {
+    "name": "\u0628\u0644\u0648\u0686\u06cc (\u0631\u062e\u0634\u0627\u0646\u06cc)",
+    "regions": [
+      "AE",
+      "AF",
+      "IR",
+      "OM",
+      "PK"
+    ]
+  },
   "bho": {
     "name": "Bhojpuri",
     "regions": [
       "IN"
+    ]
+  },
+  "blo": {
+    "name": "Anii Kag\u0269ja",
+    "regions": [
+      "BJ"
+    ]
+  },
+  "blt": {
+    "name": "\uaabc\uaa95\uaa92\uaabe",
+    "regions": [
+      "VN"
     ]
   },
   "bm": {
@@ -165,10 +237,34 @@
       "BA"
     ]
   },
+  "bss": {
+    "name": "Akoose",
+    "regions": [
+      "CM"
+    ]
+  },
+  "byn": {
+    "name": "Blin",
+    "regions": [
+      "ER"
+    ]
+  },
   "ca": {
     "name": "Catalano",
     "regions": [
       "AD"
+    ]
+  },
+  "cad": {
+    "name": "Caddo",
+    "regions": [
+      "US"
+    ]
+  },
+  "cch": {
+    "name": "Atsam",
+    "regions": [
+      "NG"
     ]
   },
   "ccp": {
@@ -196,8 +292,20 @@
       "UG"
     ]
   },
+  "cho": {
+    "name": "Choctaw",
+    "regions": [
+      "US"
+    ]
+  },
   "chr": {
     "name": "Cherokee",
+    "regions": [
+      "US"
+    ]
+  },
+  "cic": {
+    "name": "Chikashshanompa\u02bc",
     "regions": [
       "US"
     ]
@@ -209,10 +317,28 @@
       "IR"
     ]
   },
+  "co": {
+    "name": "Corso",
+    "regions": [
+      "FR"
+    ]
+  },
   "cs": {
     "name": "Checo",
     "regions": [
       "CZ"
+    ]
+  },
+  "csw": {
+    "name": "Cree Del Paludes",
+    "regions": [
+      "CA"
+    ]
+  },
+  "cu": {
+    "name": "Slavo Ecclesiastic",
+    "regions": [
+      "RU"
     ]
   },
   "cv": {
@@ -272,6 +398,12 @@
     "name": "Duala",
     "regions": [
       "CM"
+    ]
+  },
+  "dv": {
+    "name": "Divehi",
+    "regions": [
+      "MV"
     ]
   },
   "dyo": {
@@ -569,16 +701,35 @@
       "IE"
     ]
   },
+  "gaa": {
+    "name": "Ga",
+    "regions": [
+      "GH"
+    ]
+  },
   "gd": {
     "name": "Gaelico Scotese",
     "regions": [
       "GB"
     ]
   },
+  "gez": {
+    "name": "Ge\u2019Ez",
+    "regions": [
+      "ER",
+      "ET"
+    ]
+  },
   "gl": {
     "name": "Galleco",
     "regions": [
       "ES"
+    ]
+  },
+  "gn": {
+    "name": "Guarani",
+    "regions": [
+      "PY"
     ]
   },
   "gsw": {
@@ -611,7 +762,8 @@
     "regions": [
       "GH",
       "NE",
-      "NG"
+      "NG",
+      "SD"
     ]
   },
   "haw": {
@@ -630,6 +782,12 @@
     "name": "Hindi",
     "regions": [
       "IN"
+    ]
+  },
+  "hnj": {
+    "name": "\ud838\udd00\ud838\udd04\ud838\udd30\ud838\udd29\ud838\udd0d\ud838\udd1c\ud838\udd30",
+    "regions": [
+      "US"
     ]
   },
   "hr": {
@@ -669,6 +827,12 @@
       "ID"
     ]
   },
+  "ie": {
+    "name": "Interlingue",
+    "regions": [
+      "EE"
+    ]
+  },
   "ig": {
     "name": "Igbo",
     "regions": [
@@ -679,6 +843,12 @@
     "name": "Yi De Sichuan",
     "regions": [
       "CN"
+    ]
+  },
+  "io": {
+    "name": "Ido",
+    "regions": [
+      "UN"
     ]
   },
   "is": {
@@ -696,10 +866,22 @@
       "VA"
     ]
   },
+  "iu": {
+    "name": "Inuktitut",
+    "regions": [
+      "CA"
+    ]
+  },
   "ja": {
     "name": "Japonese",
     "regions": [
       "JP"
+    ]
+  },
+  "jbo": {
+    "name": "Lojban",
+    "regions": [
+      "UN"
     ]
   },
   "jgo": {
@@ -732,10 +914,22 @@
       "DZ"
     ]
   },
+  "kaj": {
+    "name": "Jju",
+    "regions": [
+      "NG"
+    ]
+  },
   "kam": {
     "name": "Kamba",
     "regions": [
       "KE"
+    ]
+  },
+  "kcg": {
+    "name": "Tyap",
+    "regions": [
+      "NG"
     ]
   },
   "kde": {
@@ -748,6 +942,12 @@
     "name": "Capoverdiano",
     "regions": [
       "CV"
+    ]
+  },
+  "ken": {
+    "name": "K\u025bnya\u014b",
+    "regions": [
+      "CM"
     ]
   },
   "kgp": {
@@ -817,6 +1017,13 @@
       "IN"
     ]
   },
+  "kpe": {
+    "name": "Kpelle",
+    "regions": [
+      "GN",
+      "LR"
+    ]
+  },
   "ks": {
     "name": "Kashmiri",
     "regions": [
@@ -853,10 +1060,22 @@
       "GB"
     ]
   },
+  "kxv": {
+    "name": "Kuvi",
+    "regions": [
+      "IN"
+    ]
+  },
   "ky": {
     "name": "Kirghizo",
     "regions": [
       "KG"
+    ]
+  },
+  "la": {
+    "name": "Latino",
+    "regions": [
+      "VA"
     ]
   },
   "lag": {
@@ -877,10 +1096,22 @@
       "UG"
     ]
   },
+  "lij": {
+    "name": "Ligure",
+    "regions": [
+      "IT"
+    ]
+  },
   "lkt": {
     "name": "Lakota",
     "regions": [
       "US"
+    ]
+  },
+  "lmo": {
+    "name": "Lombard",
+    "regions": [
+      "IT"
     ]
   },
   "ln": {
@@ -990,6 +1221,12 @@
       "NZ"
     ]
   },
+  "mic": {
+    "name": "Micmac",
+    "regions": [
+      "CA"
+    ]
+  },
   "mk": {
     "name": "Macedone",
     "regions": [
@@ -1012,6 +1249,12 @@
     "name": "Manipuri",
     "regions": [
       "IN"
+    ]
+  },
+  "moh": {
+    "name": "Mohawk",
+    "regions": [
+      "CA"
     ]
   },
   "mr": {
@@ -1040,10 +1283,22 @@
       "CM"
     ]
   },
+  "mus": {
+    "name": "Creek",
+    "regions": [
+      "US"
+    ]
+  },
   "my": {
     "name": "Birmano",
     "regions": [
       "MM"
+    ]
+  },
+  "myv": {
+    "name": "Erzya",
+    "regions": [
+      "RU"
     ]
   },
   "mzn": {
@@ -1114,10 +1369,40 @@
       "CM"
     ]
   },
+  "nqo": {
+    "name": "N\u2019Ko",
+    "regions": [
+      "GN"
+    ]
+  },
+  "nr": {
+    "name": "Ndebele Del Sud",
+    "regions": [
+      "ZA"
+    ]
+  },
+  "nso": {
+    "name": "Sotho Del Nord",
+    "regions": [
+      "ZA"
+    ]
+  },
   "nus": {
     "name": "Nuer",
     "regions": [
       "SS"
+    ]
+  },
+  "nv": {
+    "name": "Navajo",
+    "regions": [
+      "US"
+    ]
+  },
+  "ny": {
+    "name": "Nyanja",
+    "regions": [
+      "MW"
     ]
   },
   "nyn": {
@@ -1153,11 +1438,24 @@
       "RU"
     ]
   },
+  "osa": {
+    "name": "\ud801\udccf\ud801\udcd8\ud801\udcfb\ud801\udcd8\ud801\udcfb\ud801\udcdf",
+    "regions": [
+      "US"
+    ]
+  },
   "pa": {
     "name": "Punjabi",
     "regions": [
       "IN",
       "PK"
+    ]
+  },
+  "pap": {
+    "name": "Papiamento",
+    "regions": [
+      "AW",
+      "CW"
     ]
   },
   "pcm": {
@@ -1174,6 +1472,12 @@
   },
   "pl": {
     "name": "Polonese",
+    "regions": [
+      "PL"
+    ]
+  },
+  "prg": {
+    "name": "Prussiano",
     "regions": [
       "PL"
     ]
@@ -1207,10 +1511,29 @@
       "PE"
     ]
   },
+  "quc": {
+    "name": "K\u02bcIche\u02bc",
+    "regions": [
+      "GT"
+    ]
+  },
   "raj": {
     "name": "\u0930\u093e\u091c\u0938\u094d\u0925\u093e\u0928\u0940",
     "regions": [
       "IN"
+    ]
+  },
+  "rhg": {
+    "name": "Rohingya",
+    "regions": [
+      "BD",
+      "MM"
+    ]
+  },
+  "rif": {
+    "name": "Tarifit",
+    "regions": [
+      "MA"
     ]
   },
   "rm": {
@@ -1296,11 +1619,24 @@
       "IT"
     ]
   },
+  "scn": {
+    "name": "Siciliano",
+    "regions": [
+      "IT"
+    ]
+  },
   "sd": {
     "name": "Sindhi",
     "regions": [
       "IN",
       "PK"
+    ]
+  },
+  "sdh": {
+    "name": "\u06a9\u0648\u0631\u062f\u06cc \u062e\u0648\u0627\u0631\u06af",
+    "regions": [
+      "IQ",
+      "IR"
     ]
   },
   "se": {
@@ -1335,10 +1671,23 @@
       "MA"
     ]
   },
+  "shn": {
+    "name": "Shan",
+    "regions": [
+      "MM",
+      "TH"
+    ]
+  },
   "si": {
     "name": "Cingalese",
     "regions": [
       "LK"
+    ]
+  },
+  "sid": {
+    "name": "Sidaamu Afo",
+    "regions": [
+      "ET"
     ]
   },
   "sk": {
@@ -1347,10 +1696,30 @@
       "SK"
     ]
   },
+  "skr": {
+    "name": "\u0633\u0631\u0627\u0626\u06cc\u06a9\u06cc",
+    "regions": [
+      "PK"
+    ]
+  },
   "sl": {
     "name": "Sloveno",
     "regions": [
       "SI"
+    ]
+  },
+  "sma": {
+    "name": "Sami Del Sud",
+    "regions": [
+      "NO",
+      "SE"
+    ]
+  },
+  "smj": {
+    "name": "Sami De Lule",
+    "regions": [
+      "NO",
+      "SE"
     ]
   },
   "smn": {
@@ -1393,6 +1762,24 @@
       "XK"
     ]
   },
+  "ss": {
+    "name": "Swati",
+    "regions": [
+      "SZ"
+    ]
+  },
+  "ssy": {
+    "name": "Saho",
+    "regions": [
+      "ER"
+    ]
+  },
+  "st": {
+    "name": "Sotho Del Sud",
+    "regions": [
+      "LS"
+    ]
+  },
   "su": {
     "name": "Sundanese",
     "regions": [
@@ -1413,6 +1800,19 @@
       "KE",
       "TZ",
       "UG"
+    ]
+  },
+  "syr": {
+    "name": "Syriaco",
+    "regions": [
+      "IQ",
+      "SY"
+    ]
+  },
+  "szl": {
+    "name": "\u015al\u014dnski",
+    "regions": [
+      "PL"
     ]
   },
   "ta": {
@@ -1453,10 +1853,22 @@
       "ER"
     ]
   },
+  "tig": {
+    "name": "Tigre",
+    "regions": [
+      "ER"
+    ]
+  },
   "tk": {
     "name": "Turkmeno",
     "regions": [
       "TM"
+    ]
+  },
+  "tn": {
+    "name": "Tswana",
+    "regions": [
+      "BW"
     ]
   },
   "to": {
@@ -1471,11 +1883,35 @@
       "UN"
     ]
   },
+  "tpi": {
+    "name": "Tok Pisin",
+    "regions": [
+      "PG"
+    ]
+  },
   "tr": {
     "name": "Turco",
     "regions": [
       "CY",
       "TR"
+    ]
+  },
+  "trv": {
+    "name": "Taroko",
+    "regions": [
+      "TW"
+    ]
+  },
+  "trw": {
+    "name": "Torwali",
+    "regions": [
+      "PK"
+    ]
+  },
+  "ts": {
+    "name": "Tsonga",
+    "regions": [
+      "ZA"
     ]
   },
   "tt": {
@@ -1488,6 +1924,12 @@
     "name": "Tasawaq",
     "regions": [
       "NE"
+    ]
+  },
+  "tyv": {
+    "name": "Tuvano",
+    "regions": [
+      "RU"
     ]
   },
   "tzm": {
@@ -1526,10 +1968,34 @@
       "LR"
     ]
   },
+  "ve": {
+    "name": "Venda",
+    "regions": [
+      "ZA"
+    ]
+  },
+  "vec": {
+    "name": "Venetiano",
+    "regions": [
+      "IT"
+    ]
+  },
   "vi": {
     "name": "Vietnamese",
     "regions": [
       "VN"
+    ]
+  },
+  "vmw": {
+    "name": "Emakhuwa",
+    "regions": [
+      "MZ"
+    ]
+  },
+  "vo": {
+    "name": "Volap\u00fck",
+    "regions": [
+      "UN"
     ]
   },
   "vun": {
@@ -1538,10 +2004,28 @@
       "TZ"
     ]
   },
+  "wa": {
+    "name": "Wallon",
+    "regions": [
+      "BE"
+    ]
+  },
   "wae": {
     "name": "Walser",
     "regions": [
       "CH"
+    ]
+  },
+  "wal": {
+    "name": "Wolaytta",
+    "regions": [
+      "ET"
+    ]
+  },
+  "wbp": {
+    "name": "Warlpiri",
+    "regions": [
+      "AU"
     ]
   },
   "wo": {
@@ -1554,6 +2038,12 @@
     "name": "Xhosa",
     "regions": [
       "ZA"
+    ]
+  },
+  "xnr": {
+    "name": "\u0915\u093e\u0902\u0917\u0921\u093c\u0940",
+    "regions": [
+      "IN"
     ]
   },
   "xog": {
@@ -1571,7 +2061,7 @@
   "yi": {
     "name": "Yiddish",
     "regions": [
-      "UN"
+      "UA"
     ]
   },
   "yo": {
@@ -1593,6 +2083,12 @@
     "regions": [
       "CN",
       "HK"
+    ]
+  },
+  "za": {
+    "name": "Vahcuengh",
+    "regions": [
+      "CN"
     ]
   },
   "zgh": {
