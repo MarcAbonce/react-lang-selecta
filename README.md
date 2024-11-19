@@ -54,7 +54,8 @@ This library is distributed under the terms of the **Licence Libre du Québec �
 ## Frequently Unasked Questions
 
 1. Where did you get the data about the locales and the regions from?  
-    - The data comes from the [Unicode CLDR](https://cldr.unicode.org/) v42, specifically through the [Python Babel](https://babel.pocoo.org/en/latest/) library.  
+    - The data mainly comes from the [Unicode CLDR](https://cldr.unicode.org/) v45, specifically through the [Python Babel](https://babel.pocoo.org/en/latest/) library.  
+    - For locales not supported in Python's Babel, the data was obtained from [Ethnologue](https://www.ethnologue.com). 🌞📖🙏  
 
 2. The data is wrong and I'm offended!  
     - Fix it upstream in the [Unicode CLDR](https://cldr.unicode.org/) so that ~~I don't have to deal with it~~ the entire World can benefit from your contribution.  
