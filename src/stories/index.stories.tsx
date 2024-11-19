@@ -20,7 +20,7 @@ export default meta;
 
 type Story = StoryObj<typeof LangSelecta>;
 
-const langs = ["ar", "es", "en", "fr", "pt", "ru", "zh", "yi", "ff", "qu"];
+const langs = ["ar", "es", "en", "fr", "pt", "ru", "zh", "tok", "ff", "qu"];
 
 export const Simple: Story = {
   args: {
@@ -39,9 +39,9 @@ export const Complete: Story = {
     defaultValue: "ff",
     id: "lang-selecta",
     name: "lang",
-    langs: [...langs, "yaq"],
+    langs: [...langs, "und"],
     extraLangData: {
-      yaq: { name: "Yaqui", flags: ["🇲🇽", "🇺🇸"] },
+      und: { name: "Undian", flags: ["🏴‍☠️"] },
     },
     style: { borderRadius: "10px", marginLeft: "10px", fontSize: "1.5rem" },
   },

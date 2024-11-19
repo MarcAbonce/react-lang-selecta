@@ -56,11 +56,10 @@ describe("useLangSelecta", () => {
 
   it("picks data from extraLangData if available", () => {
     const extraLangData = {
-      oto: { name: "Otomí", flags: ["🇲🇽"] },
       gd: { name: "Gaélico Escocés", flags: ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"] },
     };
     const result = renderHook(() =>
-      useLangSelecta({ langs: ["gd", "oto", "haw"], extraLangData }),
+      useLangSelecta({ langs: ["gd", "haw"], extraLangData }),
     ).result;
     expect(result.current).toStrictEqual({
       langsData: [
@@ -69,12 +68,6 @@ describe("useLangSelecta", () => {
           name: "Hawaiano",
           flag: "🇺🇸",
           optionName: "🇺🇸 Hawaiano",
-        },
-        {
-          code: "oto",
-          name: "Otomí",
-          flag: "🇲🇽",
-          optionName: "🇲🇽 Otomí",
         },
         {
           code: "gd",
