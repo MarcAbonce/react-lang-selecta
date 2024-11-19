@@ -11,7 +11,7 @@ import { axe } from "jest-axe";
 import LangSelecta from "..";
 
 const extraLangData = {
-  oto: { name: "Otomi", flags: ["🇲🇽"] },
+  und: { name: "Undian", flags: ["🏴‍☠️"] },
 };
 
 describe("LangSelecta", () => {
@@ -27,7 +27,7 @@ describe("LangSelecta", () => {
     expect(
       render(
         <LangSelecta
-          langs={["es", "id", "oto"]}
+          langs={["es", "id", "otq", "und"]}
           extraLangData={extraLangData}
         />,
       ).container,
