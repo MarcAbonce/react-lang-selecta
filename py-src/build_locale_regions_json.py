@@ -6,7 +6,7 @@ import csv
 import json
 import re
 
-from babel import Locale, languages, localedata
+from babel import Locale, languages, localedata, UnknownLocaleError
 from requests import get
 
 
@@ -61,20 +61,37 @@ if cldr_extra_resp.ok:
     for locale in cldr_extra:
         if 'iso639_3' not in locale:
             continue
-        lang_id = locale['iso639_3']
+        lang = iso639_3 = locale['iso639_3']
+        try:
+            # skip ISO639-3 locales that already have an equivalent ISO639-1 code
+            # in any of the locale dicts that we're building
+            # i.e. remove redundant codes like 'spa' ('es')
+            iso639_1 = Locale.parse(iso639_3).language
+            if iso639_1 in locale_regions or \
+               iso639_1 in unofficial_locale_regions or \
+               iso639_1 in international_locales:
+                continue
+            lang = iso639_1
+        except UnknownLocaleError:
+            # extra locale is unknown by babel,
+            # therefore we should definitely add it to dict
+            # (because that's the whole point of this piece of code)
+            pass
+
         country_id = locale.get('region')
         name = locale.get('localname') \
             or locale.get('localenames', [None])[0] \
             or locale.get('names', [None])[0] \
             or locale.get('name')
+
         if not country_id or country_id.isdigit():
             # locales with "international" regions like 001 or 419
             add_locale_to_dict(
-                lang_id, 'UN', international_locales, fallback_name=name
+                lang, 'UN', international_locales, fallback_name=name
             )
         else:
             add_locale_to_dict(
-                lang_id, country_id, unofficial_locale_regions, fallback_name=name
+                lang, country_id, unofficial_locale_regions, fallback_name=name
             )
 
 
