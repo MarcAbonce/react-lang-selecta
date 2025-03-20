@@ -5,7 +5,7 @@ import dts from "vite-plugin-dts";
 import license from "rollup-plugin-license";
 
 const licenseBanner = `
-React Lang Selecta
+React Lang Selecta ${process.env.npm_package_version}
 @copyright 🄯 2023 Marc Abonce Seguin
 @license LiLiQ-R-1.1
 `;
