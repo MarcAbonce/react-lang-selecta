@@ -84,7 +84,7 @@ if cldr_extra_resp.ok:
             or locale.get('names', [None])[0] \
             or locale.get('name')
 
-        if not country_id or country_id.isdigit():
+        if not country_id or country_id.isdigit() or country_id == 'XX':
             # locales with "international" regions like 001 or 419
             add_locale_to_dict(
                 lang, 'UN', international_locales, fallback_name=name
