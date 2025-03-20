@@ -2119,8 +2119,7 @@
     "regions": [
       "IR",
       "JO",
-      "SY",
-      "XX"
+      "SY"
     ]
   },
   "ard": {
@@ -29020,7 +29019,7 @@
   "nrc": {
     "name": "Noric",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "nre": {
@@ -29639,7 +29638,7 @@
   "nxm": {
     "name": "Numidian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "nxn": {
@@ -29982,7 +29981,7 @@
   "ocm": {
     "name": "Old Cham",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "oco": {
@@ -30210,7 +30209,7 @@
   "okl": {
     "name": "Old Kentish Sign Language",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "okm": {
@@ -30374,7 +30373,7 @@
   "omn": {
     "name": "Minoan",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "omo": {
@@ -30548,7 +30547,7 @@
   "oos": {
     "name": "Old Ossetic",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "opa": {
@@ -30711,7 +30710,7 @@
   "osn": {
     "name": "Old Sundanese",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "oso": {
@@ -30873,7 +30872,7 @@
   "oui": {
     "name": "Old Uighur",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "oum": {
@@ -33678,7 +33677,7 @@
   "rie": {
     "name": "Rien",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "rif": {
@@ -35540,7 +35539,7 @@
   "sjk": {
     "name": "Kemi Sami",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "sjl": {
@@ -36059,7 +36058,7 @@
   "snh": {
     "name": "Shinabo",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "sni": {
@@ -36203,8 +36202,7 @@
   "sog": {
     "name": "Sogdian",
     "regions": [
-      "UZ",
-      "XX"
+      "UZ"
     ]
   },
   "soh": {
@@ -36414,7 +36412,7 @@
   "spx": {
     "name": "South Picene",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "sq": {
@@ -36451,7 +36449,7 @@
   "sqn": {
     "name": "Conestoga",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "sqo": {
@@ -36469,7 +36467,7 @@
   "sqr": {
     "name": "Siculo Arabic",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "sqs": {
@@ -37034,7 +37032,7 @@
   "sux": {
     "name": "Sumerian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "suy": {
@@ -37102,7 +37100,7 @@
   "svx": {
     "name": "Skalvian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "sw": {
@@ -37248,7 +37246,7 @@
   "sxc": {
     "name": "Sicanian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "sxe": {
@@ -37266,13 +37264,13 @@
   "sxk": {
     "name": "Yoncalla",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "sxl": {
     "name": "Selian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "sxm": {
@@ -37290,7 +37288,7 @@
   "sxo": {
     "name": "Sorothaptic",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "sxr": {
@@ -38645,7 +38643,7 @@
   "tjm": {
     "name": "Timucua",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "tjn": {
@@ -38735,7 +38733,7 @@
   "tkm": {
     "name": "Taakelm\u00e0\u0294N",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "tkn": {
@@ -39474,7 +39472,7 @@
   "tpw": {
     "name": "Tupinamb\u00e1",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "tpx": {
@@ -40250,7 +40248,7 @@
   "twc": {
     "name": "Teshenawa",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "twd": {
@@ -40364,13 +40362,13 @@
   "txb": {
     "name": "Tokharian B",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "txc": {
     "name": "Jits\u2019Aawit",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "txe": {
@@ -40388,7 +40386,7 @@
   "txh": {
     "name": "Thracian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "txi": {
@@ -40430,7 +40428,7 @@
   "txr": {
     "name": "Tartessian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "txs": {
@@ -40977,7 +40975,7 @@
   "umc": {
     "name": "Marrucinian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "umd": {
@@ -43350,19 +43348,19 @@
   "xad": {
     "name": "Adaes",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xae": {
     "name": "Aequian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xag": {
     "name": "Aghwan",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xai": {
@@ -43411,13 +43409,13 @@
   "xap": {
     "name": "Apalachi",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xaq": {
     "name": "Aquitanian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xar": {
@@ -43471,7 +43469,7 @@
   "xbc": {
     "name": "Bactrian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xbd": {
@@ -43519,7 +43517,7 @@
   "xbo": {
     "name": "Bolgarian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xbp": {
@@ -43549,25 +43547,25 @@
   "xcb": {
     "name": "Cumbric",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xcc": {
     "name": "Camunic",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xce": {
     "name": "Celtiberian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xcg": {
     "name": "Cisalpine Gaulish",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xch": {
@@ -43579,26 +43577,25 @@
   "xcl": {
     "name": "Classical Armenian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xcm": {
     "name": "Carrizo",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xcn": {
     "name": "Cotoname",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xco": {
     "name": "Chorasmian",
     "regions": [
-      "UZ",
-      "XX"
+      "UZ"
     ]
   },
   "xcr": {
@@ -43610,31 +43607,31 @@
   "xct": {
     "name": "Classical Tibetan",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xcu": {
     "name": "Curonian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xcv": {
     "name": "Chuvan",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xcw": {
     "name": "Coahuilteco",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xcy": {
     "name": "Liksiyu",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xda": {
@@ -43646,7 +43643,7 @@
   "xdc": {
     "name": "Dacian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xdk": {
@@ -43658,7 +43655,7 @@
   "xdm": {
     "name": "Edomite",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xdo": {
@@ -43682,7 +43679,7 @@
   "xeb": {
     "name": "Eblan",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xed": {
@@ -43712,7 +43709,7 @@
   "xep": {
     "name": "Epi-Olmec",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xer": {
@@ -43742,13 +43739,13 @@
   "xfa": {
     "name": "Faliscan",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xga": {
     "name": "Galatian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xgb": {
@@ -43766,7 +43763,7 @@
   "xgf": {
     "name": "Gabriele\u00f1o",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xgg": {
@@ -43784,7 +43781,7 @@
   "xgl": {
     "name": "Galindan",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xgm": {
@@ -43796,7 +43793,7 @@
   "xgr": {
     "name": "Garza",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xgu": {
@@ -43820,19 +43817,19 @@
   "xha": {
     "name": "Harami",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xhc": {
     "name": "Hunnic",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xhd": {
     "name": "Hadrami",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xhe": {
@@ -43850,7 +43847,7 @@
   "xhr": {
     "name": "Hernican",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xht": {
@@ -43862,7 +43859,7 @@
   "xhu": {
     "name": "Hurrian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xhv": {
@@ -43874,7 +43871,7 @@
   "xib": {
     "name": "Iberian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xii": {
@@ -43886,7 +43883,7 @@
   "xil": {
     "name": "Illyrian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xin": {
@@ -43910,7 +43907,7 @@
   "xiv": {
     "name": "Indus Valley Language",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xiy": {
@@ -44084,7 +44081,7 @@
   "xlb": {
     "name": "Loup B",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xlc": {
@@ -44102,49 +44099,49 @@
   "xle": {
     "name": "Lemnian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xlg": {
     "name": "Ligurian (Ancient)",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xli": {
     "name": "Liburnian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xln": {
     "name": "Alanic",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xlo": {
     "name": "Loup A",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xlp": {
     "name": "Lepontic",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xls": {
     "name": "Lusitanian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xlu": {
     "name": "Cuneiform Luwian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xly": {
@@ -44180,7 +44177,7 @@
   "xme": {
     "name": "Median",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xmf": {
@@ -44210,7 +44207,7 @@
   "xmk": {
     "name": "Ancient Macedonian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xml": {
@@ -44318,7 +44315,7 @@
   "xng": {
     "name": "Middle Mongolian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xnh": {
@@ -44360,7 +44357,7 @@
   "xno": {
     "name": "Anglo-Norman",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xnq": {
@@ -44487,7 +44484,7 @@
   "xpc": {
     "name": "Pecheneg",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xpd": {
@@ -44589,7 +44586,7 @@
   "xpu": {
     "name": "Punic",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xpv": {
@@ -44721,7 +44718,7 @@
   "xsc": {
     "name": "Scythian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xsd": {
@@ -44800,7 +44797,7 @@
   "xsv": {
     "name": "Jatvingian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xsy": {
@@ -44842,7 +44839,7 @@
   "xtg": {
     "name": "Transalpine Gaulish",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xth": {
@@ -45208,7 +45205,7 @@
   "xzm": {
     "name": "Semigallian",
     "regions": [
-      "XX"
+      "UN"
     ]
   },
   "xzp": {
